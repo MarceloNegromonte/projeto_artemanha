@@ -27,27 +27,33 @@ public class Categoria {
 	private String artesanal;
 	
 	@NotNull
-	private String forma_pagamento;
-	
-	
+	private String formaPagamento;
+
 	public long getId() {
 		return id;
 	}
+
 	public void setId(long id) {
 		this.id = id;
 	}
+
 	public String getArtesanal() {
 		return artesanal;
 	}
+
 	public void setArtesanal(String artesanal) {
 		this.artesanal = artesanal;
 	}
-	public String getForma_pagamento() {
-		return forma_pagamento;
+
+	public String getFormaPagamento() {
+		return formaPagamento;
 	}
-	public void setForma_pagamento(String forma_pagamento) {
-		this.forma_pagamento = forma_pagamento;
+
+	public void setFormaPagamento(String formaPagamento) {
+		this.formaPagamento = formaPagamento;
 	}
+	
+	
 	
 
 	
